@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic-Tac-Toe</title>
+    <link rel="icon" href="icon.png" type="image/icon">
+    <link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/00f0376318.js" crossorigin="anonymous"></script> 
+</head>
+<body class="mode">
+    <main>
+        <div class="header">
+            <div class="text">
+                <h1 style="color: rgb(51, 153, 255);">TIC</h1>
+                <h1 style="color: orange;">TAC</h1>
+                <h1 style="color: rgb(51, 153, 255);">TOE</h1>
+            </div>
+            <div class="box">
+                <button class="header_btn" id="home"><i class="fa-solid fa-house fa-xl" style="color: #ffffff;"></i></i></button>
+                <button class="header_btn" id="reset"><i class="fa-solid fa-arrow-rotate-left fa-xl" style="color: #ffffff;"></i></button>
+                <button class="header_btn" id="mode"><i class="fa-solid fa-circle-half-stroke fa-xl" style="color: #ffffff;"></i></button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="game">
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                
+            </div>
+        </div>
+
+        <div class="player">
+            <h1 id="x">PLAYER: X</h1>
+            <h1 id="o">PLAYER: O</h1>
+        </div>
+
+        <div class="winner1 winner2 hide">
+            <h1 id="msg">WINNER</h1>
+        </div>
+        
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

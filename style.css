@@ -1,0 +1,120 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+
+.header{
+    height: 10vh;
+    display: flex;
+}
+
+.text{
+    width: 90%;
+    padding-left: 9%;
+    padding-top: 2%;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+
+.box{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.header_btn{
+    height: 4vmin;
+    width: 4vmin;
+    border: none;
+    background: none;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.btn{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(255, 255, 255 0.5);
+    font-size: 8vmin;
+    background-color: white;
+    color: black;
+}
+
+.btn:hover{
+    box-shadow: 5px 5px 20px;
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.player
+{
+    height: 10vh;
+    text-align: center;
+}
+
+#x
+{
+    color: rgb(51, 153, 255);
+}
+
+#o
+{
+    color: orange;
+}
+
+.winner1
+{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(51, 153, 255);
+}
+
+.winner2
+{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: orange;
+}
+
+.hide
+{
+    display:none;
+}
+
+.X
+{
+    background-color: rgb(51, 153, 255);
+}
+
+.O
+{
+    background-color: orange;
+}
